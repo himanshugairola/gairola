@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <!-- SEO & Recruiter Discovery Meta Tags -->
+  <title>Himanshu Gairola | Aspiring Web Developer & B.Tech Student</title>
+  <meta name="description" content="Portfolio of Himanshu Gairola, a second-year B.Tech student seeking web development internships and entry-level opportunities. Built with semantic HTML5, modern CSS3, and vanilla JavaScript.">
+  <meta name="keywords" content="Web Developer, Frontend Developer, B.Tech Student, HTML5, CSS3, JavaScript, Portfolio, Internships">
+  <meta name="author" content="Himanshu Gairola">
+
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Core CSS Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- SVG Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%2314243A'/><text x='50' y='65' font-size='50' font-family='sans-serif' font-weight='bold' fill='%233569A8' text-anchor='middle'>&lt;/&gt;</text></svg>">
+</head>
+<body>
+
+  <!-- Accessibility Skip Link -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- ========================================================================
+       Navigation Bar
+       ======================================================================== -->
+  <header class="header" id="top">
+    <div class="container header-container">
+      <!-- Logo / Monogram -->
+      <a href="#hero" class="logo" aria-label="Himanshu Gairola Portfolio Home">
+        <span class="logo-initials">HG</span>
+        <span class="logo-text">Himanshu Gairola<span class="logo-tag">.dev</span></span>
+      </a>
+
+      <!-- Mobile Navigation Hamburger Button -->
+      <button 
+        class="nav-toggle" 
+        id="navToggle" 
+        aria-label="Toggle navigation menu" 
+        aria-expanded="false" 
+        aria-controls="navMenu"
+      >
+        <span class="nav-toggle-icon"></span>
+      </button>
+
+      <!-- Primary Navigation Menu -->
+      <nav class="nav-menu" id="navMenu" aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="#hero" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#resume" class="nav-link">Resume</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="nav-cta">
+          <a href="#contact" class="btn btn-outline btn-sm">Get In Touch</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ========================================================================
+       Main Content
+       ======================================================================== -->
+  <main id="main-content">
+
+    <!-- ----------------------------------------------------------------------
+         Hero Section
+         ---------------------------------------------------------------------- -->
+    <section class="hero" id="hero" aria-label="Introduction">
+      <div class="container hero-grid">
+        <!-- Hero Text Column -->
+        <div class="hero-content">
+          <div class="hero-kicker">
+            <span class="badge badge-accent">
+              <span class="status-dot"></span> Available for Web Development Internships
+            </span>
+          </div>
+
+          <h1 class="hero-title">
+            Hi, I'm <span class="highlight">Himanshu Gairola</span>
+          </h1>
+          <p class="hero-role">Aspiring Web Developer | B.Tech Student</p>
+
+          <p class="hero-description">
+            I am a second-year engineering student dedicated to mastering core web technologies. 
+            I build responsive, clean, and accessible web interfaces with a strong focus on 
+            semantic code, problem-solving, and continuous learning.
+          </p>
+
+          <div class="btn-group hero-actions">
+            <a href="#projects" class="btn btn-primary">View My Projects</a>
+            <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            <a href="assets/resume.pdf" class="btn btn-outline" download>Download Resume</a>
+          </div>
+
+          <!-- Hero Social Links -->
+          <div class="hero-socials">
+            <span class="social-label">Connect:</span>
+            <div class="social-links">
+              <!-- GitHub Link -->
+              <a href="https://github.com/[your-username]" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile (opens in new tab)">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+              </a>
+              <!-- LinkedIn Link -->
+              <a href="https://linkedin.com/in/[your-username]" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile (opens in new tab)">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+              </a>
+              <!-- Email Link -->
+              <a href="mailto:[your.email@example.com]" class="social-link" aria-label="Send direct email to Himanshu Gairola">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Visual / Professional Placeholder Card -->
+        <div class="hero-visual">
+          <div class="profile-card">
+            <div class="profile-image-wrapper">
+              <img 
+                src="assets/profile-placeholder.svg" 
+                alt="Professional silhouette avatar for Himanshu Gairola" 
+                class="profile-image" 
+                width="180" 
+                height="180"
+              >
+            </div>
+            <div class="profile-meta">
+              <h3>Himanshu Gairola</h3>
+              <p>2nd Year B.Tech • [Your Branch]</p>
+            </div>
+            <div class="profile-highlights">
+              <div class="highlight-stat">
+                <span class="stat-value">2nd Year</span>
+                <span class="stat-label">B.Tech</span>
+              </div>
+              <div class="highlight-stat">
+                <span class="stat-value">3+</span>
+                <span class="stat-label">Core Projects</span>
+              </div>
+              <div class="highlight-stat">
+                <span class="stat-value">Immediate</span>
+                <span class="stat-label">Availability</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ----------------------------------------------------------------------
+         About Me Section
+         ---------------------------------------------------------------------- -->
+    <section class="section section-alt" id="about" aria-label="About Me">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-kicker">Background</span>
+          <h2 class="section-title">About Me</h2>
+          <p class="section-subtitle">
+            A committed undergraduate student building strong frontend fundamentals and practical software literacy.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Text Narrative -->
+          <div class="about-text">
+            <p>
+              I am currently in my <strong>second year of Bachelor of Technology (B.Tech)</strong> in 
+              <strong>[Your Branch / e.g. Computer Science and Engineering]</strong> at 
+              <strong>[Your College Name]</strong>. My primary technical interest lies in frontend web development—translating designs into accessible, clean, and performant web experiences.
+            </p>
+            <p>
+              Rather than jumping straight into heavy frameworks, I chose to build a strong foundation in 
+              <strong>semantic HTML5, modern CSS3 layout systems (Flexbox and Grid), and vanilla JavaScript (ES6+)</strong>. 
+              I learn best through purposeful hands-on projects, carefully testing code behavior in the browser, and reading official documentation.
+            </p>
+            <p>
+              As a student, I bring genuine curiosity, methodical problem-solving, and a team-oriented mindset. 
+              I am currently seeking <strong>internship or trainee opportunities</strong> where I can contribute to real-world products, learn from experienced engineering teams, and expand my technical capabilities.
+            </p>
+
+            <!-- Highlights -->
+            <div class="about-features">
+              <div class="feature-item">
+                <div class="feature-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+                </div>
+                <div class="feature-content">
+                  <h4>Structured Academic Foundation</h4>
+                  <p>Equipped with core undergraduate coursework in Data Structures, Object-Oriented Programming, and Computer Science fundamentals.</p>
+                </div>
+              </div>
+
+              <div class="feature-item">
+                <div class="feature-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                </div>
+                <div class="feature-content">
+                  <h4>Practical, Code-First Mindset</h4>
+                  <p>Committed to writing readable, maintainable code following clean architecture patterns and responsive design principles.</p>
+                </div>
+              </div>
+
+              <div class="feature-item">
+                <div class="feature-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                </div>
+                <div class="feature-content">
+                  <h4>Collaborative & Adaptable</h4>
+                  <p>Eager to receive code review feedback, adapt to engineering standards, and contribute enthusiastically to team goals.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Quick Fact Sheet -->
+          <div class="about-sidebar">
+            <div class="fact-sheet-card">
+              <h3 class="fact-sheet-title">Candidate Summary</h3>
+              <div class="fact-list">
+                <div class="fact-row">
+                  <span class="fact-label">Degree</span>
+                  <span class="fact-value">B.Tech (Undergraduate)</span>
+                </div>
+                <div class="fact-row">
+                  <span class="fact-label">Current Year</span>
+                  <span class="fact-value">Second Year (4th Semester)</span>
+                </div>
+                <div class="fact-row">
+                  <span class="fact-label">Institution</span>
+                  <span class="fact-value">[Your College Name]</span>
+                </div>
+                <div class="fact-row">
+                  <span class="fact-label">Branch / Major</span>
+                  <span class="fact-value">[Your Branch]</span>
+                </div>
+                <div class="fact-row">
+                  <span class="fact-label">Target Role</span>
+                  <span class="fact-value">Web Development Intern</span>
+                </div>
+                <div class="fact-row">
+                  <span class="fact-label">Location</span>
+                  <span class="fact-value">[City, State, Country]</span>
+                </div>
+                <div class="fact-row">
+                  <span class="fact-label">Work Mode</span>
+                  <span class="fact-value">In-Office / Hybrid / Remote</span>
+                </div>
+                <div class="fact-row">
+                  <span class="fact-label">Availability</span>
+                  <span class="fact-value">Summer 2025 & Part-Time</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ----------------------------------------------------------------------
+         Technical Skills Section
+         ---------------------------------------------------------------------- -->
+    <section class="section" id="skills" aria-label="Technical Skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-kicker">Core Competencies</span>
+          <h2 class="section-title">Technical Skills</h2>
+          <p class="section-subtitle">
+            An honest assessment of technologies I have actively built with versus concepts currently on my learning path.
+          </p>
+        </div>
+
+        <div class="skills-container">
+          <!-- Category 1: Core Technologies (Learned & Applied) -->
+          <div class="skills-category">
+            <div class="skills-category-header">
+              <h3 class="skills-category-title">
+                Core Frontend Technologies
+              </h3>
+              <span class="badge badge-proficient">Applied in Projects</span>
+            </div>
+            
+            <div class="skills-grid">
+              <div class="skill-card">
+                <div class="skill-header">
+                  <span class="skill-name">HTML5</span>
+                  <span class="badge badge-proficient">Learned</span>
+                </div>
+                <p class="skill-desc">Semantic markup, ARIA accessibility attributes, clean document structure, and basic SEO best practices.</p>
+              </div>
+
+              <div class="skill-card">
+                <div class="skill-header">
+                  <span class="skill-name">CSS3</span>
+                  <span class="badge badge-proficient">Learned</span>
+                </div>
+                <p class="skill-desc">Flexbox, CSS Grid layouts, custom properties (CSS variables), media queries, transitions, and BEM naming conventions.</p>
+              </div>
+
+              <div class="skill-card">
+                <div class="skill-header">
+                  <span class="skill-name">JavaScript (ES6+)</span>
+                  <span class="badge badge-proficient">Learned</span>
+                </div>
+                <p class="skill-desc">Core syntax, functions, array methods, event loop fundamentals, object manipulation, and clean modular code.</p>
+              </div>
+
+              <div class="skill-card">
+                <div class="skill-header">
+                  <span class="skill-name">Responsive Web Design</span>
+                  <span class="badge badge-proficient">Learned</span>
+                </div>
+                <p class="skill-desc">Mobile-first design principles, fluid layouts, viewport configurations, and cross-browser responsiveness without frameworks.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 2: Developer Tools & Core Workflow -->
+          <div class="skills-category">
+            <div class="skills-category-header">
+              <h3 class="skills-category-title">
+                Workflow, DOM & Version Control
+              </h3>
+              <span class="badge badge-proficient">Practiced</span>
+            </div>
+
+            <div class="skills-grid">
+              <div class="skill-card">
+                <div class="skill-header">
+                  <span class="skill-name">DOM Manipulation</span>
+                  <span class="badge badge-proficient">Learned</span>
+                </div>
+                <p class="skill-desc">Dynamic element creation, event delegation, class/attribute toggling, and input event handling.</p>
+              </div>
+
+              <div class="skill-card">
+                <div class="skill-header">
+                  <span class="skill-name">Git & GitHub</span>
+                  <span class="badge badge-proficient">Learned</span>
+                </div>
+                <p class="skill-desc">Version control workflows, commit etiquette, branching, pushing repositories, and publishing with GitHub Pages.</p>
+              </div>
+
+              <div class="skill-card">
+                <div class="skill-header">
+                  <span class="skill-name">Browser DevTools</span>
+                  <span class="badge badge-proficient">Learned</span>
+                </div>
+                <p class="skill-desc">DOM inspection, console debugging, network request monitoring, responsive layout testing, and lighthouse auditing.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 3: Currently Learning / Growth Roadmap -->
+          <div class="skills-category">
+            <div class="skills-category-header">
+              <h3 class="skills-category-title">
+                Current Learning Roadmap
+              </h3>
+              <span class="badge badge-learning">Actively Learning</span>
+            </div>
+
+            <div class="skills-grid">
+              <div class="skill-card">
+                <div class="skill-header">
+                  <span class="skill-name">Basic API Integration</span>
+                  <span class="badge badge-learning">In Progress</span>
+                </div>
+                <p class="skill-desc">Working with the Fetch API, consuming RESTful endpoints, handling JSON responses, and managing async/await errors.</p>
+              </div>
+
+              <div class="skill-card">
+                <div class="skill-header">
+                  <span class="skill-name">Web Accessibility (WCAG)</span>
+                  <span class="badge badge-learning">In Progress</span>
+                </div>
+                <p class="skill-desc">Building accessible focus states, keyboard navigation routines, and color contrast compliance for screen readers.</p>
+              </div>
+
+              <div class="skill-card">
+                <div class="skill-header">
+                  <span class="skill-name">React Fundamentals</span>
+                  <span class="badge badge-learning">Next Step</span>
+                </div>
+                <p class="skill-desc">Studying component architecture, JSX syntax, state management basics, and hooks after cementing vanilla JavaScript mastery.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Transparency note for HR -->
+        <div class="skills-transparency-note">
+          <strong>Note for Recruiters:</strong> I intentionally present a clear distinction between core skills I have applied in projects and advanced concepts I am actively studying. I believe in demonstrating solid fundamentals rather than overstating proficiency.
+        </div>
+      </div>
+    </section>
+
+    <!-- ----------------------------------------------------------------------
+         Projects Section
+         ---------------------------------------------------------------------- -->
+    <section class="section section-alt" id="projects" aria-label="Projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-kicker">Practical Work</span>
+          <h2 class="section-title">Academic & Personal Projects</h2>
+          <p class="section-subtitle">
+            Functional applications built to apply classroom theory and self-taught web concepts into tangible software.
+          </p>
+        </div>
+
+        <!-- Filter Bar -->
+        <div class="projects-filter-bar" role="tablist" aria-label="Filter projects by technology">
+          <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">All Projects</button>
+          <button class="filter-btn" data-filter="javascript" role="tab" aria-selected="false">JavaScript</button>
+          <button class="filter-btn" data-filter="api" role="tab" aria-selected="false">APIs & Storage</button>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1: Personal Portfolio Website -->
+          <article class="project-card" data-category="javascript html css">
+            <div class="project-preview">
+              <div class="preview-mockup-browser">
+                <div class="mockup-header">
+                  <div class="mockup-dot"></div>
+                  <div class="mockup-dot"></div>
+                  <div class="mockup-dot"></div>
+                </div>
+                <div class="mockup-body">
+                  <div class="mockup-line accent"></div>
+                  <div class="mockup-line short"></div>
+                  <div class="mockup-line medium"></div>
+                </div>
+              </div>
+              <span class="project-badge-overlay">Placeholder / Sample</span>
+            </div>
+
+            <div class="project-content">
+              <span class="project-problem">Problem & Scope</span>
+              <h3 class="project-title">Personal Portfolio Website</h3>
+              <p class="project-desc">
+                Designed and engineered a minimalist, corporate-standard portfolio to showcase technical abilities, academic milestones, and coursework to recruiters without third-party frameworks.
+              </p>
+
+              <ul class="project-features">
+                <li>100% responsive layout utilizing modern CSS Grid & Flexbox</li>
+                <li>Fully accessible keyboard navigation & ARIA landmarks</li>
+                <li>Client-side form validation and interactive project filtering</li>
+              </ul>
+
+              <div class="project-tags">
+                <span class="project-tag">HTML5</span>
+                <span class="project-tag">CSS3</span>
+                <span class="project-tag">Vanilla JS</span>
+                <span class="project-tag">Responsive Design</span>
+              </div>
+
+              <div class="project-links">
+                <a href="https://github.com/[your-username]/portfolio" class="project-link-btn" target="_blank" rel="noopener noreferrer" aria-label="View Source Code on GitHub (opens in new tab)">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                  Source Code
+                </a>
+                <a href="#hero" class="project-link-btn" aria-label="Current Live Site">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                  Live Demo
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: Responsive Task Manager App -->
+          <article class="project-card" data-category="javascript api">
+            <div class="project-preview">
+              <div class="preview-mockup-browser">
+                <div class="mockup-header">
+                  <div class="mockup-dot"></div>
+                  <div class="mockup-dot"></div>
+                  <div class="mockup-dot"></div>
+                </div>
+                <div class="mockup-body">
+                  <div class="mockup-line medium"></div>
+                  <div class="mockup-line accent"></div>
+                  <div class="mockup-line short"></div>
+                </div>
+              </div>
+              <span class="project-badge-overlay">Placeholder / Sample</span>
+            </div>
+
+            <div class="project-content">
+              <span class="project-problem">Problem & Scope</span>
+              <h3 class="project-title">Responsive Task Manager App</h3>
+              <p class="project-desc">
+                An interactive productivity application allowing students to organize assignments, set priority flags, and retain task progress locally in the browser.
+              </p>
+
+              <ul class="project-features">
+                <li>Create, update, toggle completion status, and remove tasks</li>
+                <li>Data persistence using browser <code>localStorage</code> API</li>
+                <li>Dynamic DOM updates with filter views (All, Active, Completed)</li>
+              </ul>
+
+              <div class="project-tags">
+                <span class="project-tag">JavaScript</span>
+                <span class="project-tag">DOM Manipulation</span>
+                <span class="project-tag">LocalStorage</span>
+                <span class="project-tag">CSS3</span>
+              </div>
+
+              <div class="project-links">
+                <a href="https://github.com/[your-username]/task-manager" class="project-link-btn" target="_blank" rel="noopener noreferrer" aria-label="View Task Manager Source on GitHub (opens in new tab)">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                  Source Code
+                </a>
+                <a href="https://[your-username].github.io/task-manager" class="project-link-btn" target="_blank" rel="noopener noreferrer" aria-label="View Task Manager Live Demo (opens in new tab)">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                  Live Demo
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: Weather App Using a Public API -->
+          <article class="project-card" data-category="javascript api">
+            <div class="project-preview">
+              <div class="preview-mockup-browser">
+                <div class="mockup-header">
+                  <div class="mockup-dot"></div>
+                  <div class="mockup-dot"></div>
+                  <div class="mockup-dot"></div>
+                </div>
+                <div class="mockup-body">
+                  <div class="mockup-line short"></div>
+                  <div class="mockup-line medium"></div>
+                  <div class="mockup-line accent"></div>
+                </div>
+              </div>
+              <span class="project-badge-overlay">Placeholder / Sample</span>
+            </div>
+
+            <div class="project-content">
+              <span class="project-problem">Problem & Scope</span>
+              <h3 class="project-title">Weather App (Public API)</h3>
+              <p class="project-desc">
+                A single-page weather dashboard connecting to a public REST endpoint to provide real-time temperature, atmospheric metrics, and weather conditions worldwide.
+              </p>
+
+              <ul class="project-features">
+                <li>Asynchronous data retrieval utilizing JavaScript Fetch API & async/await</li>
+                <li>Input sanitization and error handling for unknown city searches</li>
+                <li>Dynamic icon rendering and metric conversion (Celsius/Fahrenheit)</li>
+              </ul>
+
+              <div class="project-tags">
+                <span class="project-tag">JavaScript</span>
+                <span class="project-tag">Fetch API</span>
+                <span class="project-tag">Async/Await</span>
+                <span class="project-tag">REST API</span>
+              </div>
+
+              <div class="project-links">
+                <a href="https://github.com/[your-username]/weather-app" class="project-link-btn" target="_blank" rel="noopener noreferrer" aria-label="View Weather App Source on GitHub (opens in new tab)">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                  Source Code
+                </a>
+                <a href="https://[your-username].github.io/weather-app" class="project-link-btn" target="_blank" rel="noopener noreferrer" aria-label="View Weather App Live Demo (opens in new tab)">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                  Live Demo
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ----------------------------------------------------------------------
+         Education Section
+         ---------------------------------------------------------------------- -->
+    <section class="section" id="education" aria-label="Education">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-kicker">Academic Background</span>
+          <h2 class="section-title">Education</h2>
+          <p class="section-subtitle">
+            Formal engineering coursework fostering strong logical thinking and computational foundations.
+          </p>
+        </div>
+
+        <div class="education-timeline">
+          <!-- B.Tech Degree Item -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <h3 class="degree-title">Bachelor of Technology (B.Tech)</h3>
+                <span class="timeline-period">2023 – 2027 (Expected)</span>
+              </div>
+              <div class="institution-name">[Your College Name], [City, State]</div>
+              <div class="education-meta">
+                <span><strong>Branch:</strong> [Your Branch / e.g. Computer Science & Engineering]</span>
+                <span><strong>Current Status:</strong> Second Year (4th Semester)</span>
+                <span><strong>Current CGPA:</strong> [e.g. 8.4 / 10.0 or Placeholder]</span>
+              </div>
+
+              <div class="coursework-box">
+                <h4>Relevant Engineering Coursework:</h4>
+                <div class="coursework-tags">
+                  <span class="course-tag">Data Structures & Algorithms</span>
+                  <span class="course-tag">Object-Oriented Programming (Java/C++)</span>
+                  <span class="course-tag">Database Management Systems (DBMS)</span>
+                  <span class="course-tag">Web Technologies & Principles</span>
+                  <span class="course-tag">Discrete Mathematics</span>
+                  <span class="course-tag">Computer System Architecture</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Higher Secondary School Item -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <h3 class="degree-title">Senior Secondary Education (Class XII)</h3>
+                <span class="timeline-period">[Year of Completion, e.g. 2023]</span>
+              </div>
+              <div class="institution-name">[Your High School / Junior College Name], [City, State]</div>
+              <div class="education-meta">
+                <span><strong>Stream:</strong> Science (Physics, Chemistry, Mathematics, Computer Science)</span>
+                <span><strong>Score / Percentage:</strong> [e.g. 88% or Placeholder]</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ----------------------------------------------------------------------
+         Resume Section
+         ---------------------------------------------------------------------- -->
+    <section class="section section-alt" id="resume" aria-label="Resume">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-kicker">Curriculum Vitae</span>
+          <h2 class="section-title">Resume & Credentials</h2>
+          <p class="section-subtitle">
+            A concise, one-page document detailing my academic qualifications, technical skills, and project portfolio.
+          </p>
+        </div>
+
+        <div class="resume-box">
+          <div class="resume-icon-wrapper" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+          </div>
+
+          <h3>Official Student Resume (PDF)</h3>
+          <p>
+            Formatted cleanly for recruitment teams and applicant tracking systems. Contains complete academic course history, GitHub repositories, and verified coursework.
+          </p>
+
+          <div class="resume-file-info">
+            <span>Format: <strong>PDF Document</strong></span>
+            <span>•</span>
+            <span>Size: <strong>~150 KB</strong></span>
+            <span>•</span>
+            <span>Target: <strong>Internship Opportunities</strong></span>
+          </div>
+
+          <div class="resume-actions">
+            <a href="assets/resume.pdf" class="btn btn-primary" download="Himanshu-Gairola-Resume.pdf">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+              Download Resume
+            </a>
+            <a href="assets/resume.pdf" class="btn btn-outline" target="_blank" rel="noopener noreferrer">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+              View in New Tab
+            </a>
+            <button type="button" class="btn btn-outline btn-sm" id="resumeInfoBtn" aria-label="Resume replacement instructions">
+              Instructions
+            </button>
+          </div>
+
+          <div class="resume-notice">
+            <small>If your actual resume has not yet been added, replace <code>assets/resume.pdf</code> with your one-page PDF file.</small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ----------------------------------------------------------------------
+         Contact Section
+         ---------------------------------------------------------------------- -->
+    <section class="section" id="contact" aria-label="Contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-kicker">Get In Touch</span>
+          <h2 class="section-title">Contact Me</h2>
+          <p class="section-subtitle">
+            I am actively interviewing for internship and entry-level positions. Let's discuss how I can contribute to your team.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Direct Contact Information -->
+          <div class="contact-info">
+            <div class="contact-info-list">
+              <!-- Email Card -->
+              <div class="contact-card">
+                <div class="contact-icon">
+                  <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+                </div>
+                <div class="contact-details">
+                  <h4>Email Address</h4>
+                  <a href="mailto:[your.email@example.com]">[your.email@example.com]</a>
+                </div>
+              </div>
+
+              <!-- LinkedIn Card -->
+              <div class="contact-card">
+                <div class="contact-icon">
+                  <svg viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                </div>
+                <div class="contact-details">
+                  <h4>LinkedIn Profile</h4>
+                  <a href="https://linkedin.com/in/[your-username]" target="_blank" rel="noopener noreferrer">linkedin.com/in/[your-username]</a>
+                </div>
+              </div>
+
+              <!-- GitHub Card -->
+              <div class="contact-card">
+                <div class="contact-icon">
+                  <svg viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                </div>
+                <div class="contact-details">
+                  <h4>GitHub Repositories</h4>
+                  <a href="https://github.com/[your-username]" target="_blank" rel="noopener noreferrer">github.com/[your-username]</a>
+                </div>
+              </div>
+
+              <!-- Location Card -->
+              <div class="contact-card">
+                <div class="contact-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                </div>
+                <div class="contact-details">
+                  <h4>Location</h4>
+                  <p>[City, State, Country]</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-note">
+              <strong>Availability Note:</strong> I monitor my inbox regularly and respond to all recruiter inquiries within 24 to 48 business hours.
+            </div>
+          </div>
+
+          <!-- Client-Side Validated Contact Form -->
+          <div class="contact-form-container">
+            <!-- Dynamic Alert Banners -->
+            <div id="formSuccessAlert" class="form-alert success" role="alert"></div>
+            <div id="formErrorAlert" class="form-alert error" role="alert"></div>
+
+            <form id="contactForm" class="contact-form" novalidate>
+              <!-- Full Name Field -->
+              <div class="form-group">
+                <label for="userName" class="form-label">
+                  Your Full Name <span class="required" aria-hidden="true">*</span>
+                </label>
+                <input 
+                  type="text" 
+                  id="userName" 
+                  name="name" 
+                  class="form-input" 
+                  placeholder="e.g. Jane Doe" 
+                  required 
+                  aria-required="true"
+                  aria-describedby="nameError"
+                >
+                <span class="form-error" id="nameError" role="alert"></span>
+              </div>
+
+              <!-- Email Field -->
+              <div class="form-group">
+                <label for="userEmail" class="form-label">
+                  Your Email Address <span class="required" aria-hidden="true">*</span>
+                </label>
+                <input 
+                  type="email" 
+                  id="userEmail" 
+                  name="email" 
+                  class="form-input" 
+                  placeholder="e.g. recruiter@company.com" 
+                  required 
+                  aria-required="true"
+                  aria-describedby="emailError"
+                >
+                <span class="form-error" id="emailError" role="alert"></span>
+              </div>
+
+              <!-- Subject Field -->
+              <div class="form-group">
+                <label for="userSubject" class="form-label">
+                  Subject <span class="required" aria-hidden="true">*</span>
+                </label>
+                <input 
+                  type="text" 
+                  id="userSubject" 
+                  name="subject" 
+                  class="form-input" 
+                  placeholder="e.g. Web Development Internship Inquiry" 
+                  required 
+                  aria-required="true"
+                  aria-describedby="subjectError"
+                >
+                <span class="form-error" id="subjectError" role="alert"></span>
+              </div>
+
+              <!-- Message Field -->
+              <div class="form-group">
+                <label for="userMessage" class="form-label">
+                  Message <span class="required" aria-hidden="true">*</span>
+                </label>
+                <textarea 
+                  id="userMessage" 
+                  name="message" 
+                  class="form-textarea" 
+                  rows="5" 
+                  placeholder="Please describe the internship role, team details, or inquiry..." 
+                  required 
+                  aria-required="true"
+                  aria-describedby="messageError"
+                ></textarea>
+                <span class="form-error" id="messageError" role="alert"></span>
+              </div>
+
+              <button type="submit" class="btn btn-primary">
+                Send Message
+              </button>
+
+              <p class="form-backend-hint">
+                <small>Frontend client validation active. See <code>README.md</code> to connect Formspree or EmailJS for live mail delivery.</small>
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========================================================================
+       Footer
+       ======================================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#hero" class="footer-logo">
+            Himanshu Gairola<span class="footer-logo-tag">.dev</span>
+          </a>
+          <p>
+            Second-year B.Tech student seeking web development internship opportunities. Built with HTML5, CSS3, and Vanilla JavaScript.
+          </p>
+        </div>
+
+        <nav class="footer-nav" aria-label="Footer Quick Links">
+          <a href="#hero">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#education">Education</a>
+          <a href="#resume">Resume</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="footer-socials">
+          <a href="https://github.com/[your-username]" class="footer-social-link" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile">
+            <svg viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+          </a>
+          <a href="https://linkedin.com/in/[your-username]" class="footer-social-link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">
+            <svg viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+          </a>
+          <a href="mailto:[your.email@example.com]" class="footer-social-link" aria-label="Email Me">
+            <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© <span id="currentYear">2025</span> Himanshu Gairola. All rights reserved.</p>
+        <a href="#top" class="back-to-top" id="backToTop">
+          Back to Top 
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 15l-6-6-6 6"/></svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========================================================================
+       Accessible Resume Helper Modal
+       ======================================================================== -->
+  <div class="modal-overlay" id="resumeModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3 class="modal-title" id="modalTitle">Adding Your Official Resume</h3>
+        <button class="modal-close-btn" id="resumeModalClose" aria-label="Close dialog">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p>To have your real PDF resume downloaded when visitors click "Download Resume":</p>
+        <p>1. Export your verified resume as a PDF file named <strong>resume.pdf</strong>.</p>
+        <p>2. Save or paste it directly into the assets folder:</p>
+        <div class="modal-code-box">portfolio/assets/resume.pdf</div>
+        <p>The download links in the hero and resume sections will immediately serve your file.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Vanilla JavaScript -->
+  <script src="js/script.js"></script>
+</body>
+</html>
+
